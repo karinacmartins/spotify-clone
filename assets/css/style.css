@@ -1,0 +1,94 @@
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img{
+    width:80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding:0 20px 10px 20px;
+    
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+    
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem; 
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 2.5rem; 
+    padding: 0.25rem 0.5rem; 
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 0.875rem; 
+    margin-top: 0.625rem; 
+    flex-direction: column;
+}
+
+.library .library__button {
+    margin-right: 0.625rem; 
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem 0.625rem; 
+    display: flex;
+}
+
+.library .library__button .fa {
+    font-size: 1.25rem; 
+    margin-right: 0.625rem; 
+    font-weight: 300;
+    padding-right: 0.5rem; 
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+    margin: 1.5rem 0.625rem; /* 24px, 10px para rem */
+}
