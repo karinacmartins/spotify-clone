@@ -1,4 +1,4 @@
-# <img src="assets/icons/favicon.png" alt="Logo" width="20"> Spotify Clone
+# <img src="./src/assets/icons/favicon.png" alt="Logo" width="20"> Spotify Clone
 
 Um projeto em desenvolvimento durante a **Imersão da Alura**. O objetivo é criar uma aplicação semelhante ao Spotify, utilizando **HTML**, **CSS**, **JavaScript**, **React** e **Angular**, aplicando boas práticas de desenvolvimento e conceitos modernos de tecnologia.
 
